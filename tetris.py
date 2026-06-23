@@ -299,7 +299,7 @@ if __name__ == '__main__':
                 moge = True
                 with open("scores.txt", 'r') as f:
                     for i in f:
-                        if f.split()[0] == Login.text:
+                        if i.split()[0] == Login.text:
                             moge = False
                 if moge:
                     with open("scores.txt", "a") as f:
